@@ -16,7 +16,7 @@ const images = [
 const galleryItemsString = images
   .map((image) => {
     return `<li><img src="${image.url}" alt="${image.alt}" 
-    width="500" height="300" style="display:block"
+    width="500" height="300"
     ></li>`;
   })
   .join("");
