@@ -24,9 +24,3 @@ const galleryItemsString = images
 const galleryListRef = document.querySelector(".gallery");
 
 galleryListRef.insertAdjacentHTML("afterbegin", galleryItemsString);
-
-galleryListRef.style.display = "flex";
-galleryListRef.style.flexWrap = "wrap";
-galleryListRef.style.justifyContent = "center";
-galleryListRef.style.gap = "20px 20px";
-galleryListRef.style.listStyle = "none";
