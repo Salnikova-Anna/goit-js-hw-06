@@ -41,3 +41,7 @@ img {
   align-items: end;
   flex-wrap: wrap;
 }
+
+#text {
+  font-size: 56px;
+}
